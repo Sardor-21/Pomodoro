@@ -1,0 +1,20 @@
+.pomodoro {
+    height: 100vh;
+}
+
+.pomodoro__time {
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 7px solid white;
+    box-shadow: 0 0 10px 4px rgba(255, 255, 255, 0.904);
+}
+
+.pomodoro__time h1 {
+    color: white;
+    font-size: 48px !important;
+    text-shadow: 0px 4px 4px rgb(240, 238, 238);
+}
